@@ -162,3 +162,17 @@ a, a:visited {
 #image-gallery {
     height: 1300px;
 }
+
+@media (min-width: 768px) {
+    #container {
+        display: flex;
+    }
+
+    aside {
+        height: auto;
+    }
+
+    #main {
+        height: auto;
+    }
+}
